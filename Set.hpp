@@ -7,7 +7,6 @@
 template <typename Key, typename Compare = std::less<Key>>
 class Set {
     private:
-        enum Color{Black, Red};
 
         struct Node {
             Key val;
